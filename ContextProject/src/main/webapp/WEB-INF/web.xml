@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+  <servlet-name>Dinesh</servlet-name>
+  <servlet-class>com.context.First</servlet-class>
+  
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Dinesh</servlet-name>
+  <url-pattern>/one</url-pattern> 
+  </servlet-mapping>
+  <context-param>
+  <param-name>driver</param-name>
+  <param-value>com.mysql.cj.jdbc.Driver</param-value>
+  
+  </context-param>
+  <context-param>
+  <param-name>url</param-name>
+  <param-value>jdbc:mysql://localjost:3306/test</param-value>
+  
+  </context-param>
+  <context-param>
+  <param-name>user</param-name>
+  <param-value>root</param-value>
+  
+  </context-param>
+  <context-param>
+  <param-name>pass</param-name>
+  <param-value>test123</param-value>
+  
+  </context-param>
+    
+  
+  <servlet>
+  
+  
+   <servlet-name>Dinesh1</servlet-name>
+  <servlet-class>com.context.Second</servlet-class>
+  
+  
+  
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Dinesh1</servlet-name>
+  <url-pattern>/Second</url-pattern>
+ 
+  
+  </servlet-mapping>
+</web-app>

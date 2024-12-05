@@ -1,0 +1,14 @@
+127.0.0.1 - - [22/Sep/2024:16:10:51 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Sep/2024:16:10:53 +0530] "GET /JSPJavaBeans/bean.jsp HTTP/1.1" 200 58
+0:0:0:0:0:0:0:1 - - [22/Sep/2024:16:10:53 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [22/Sep/2024:16:11:42 +0530] "GET /JSPJavaBeans/bean.jsp HTTP/1.1" 200 53
+0:0:0:0:0:0:0:1 - - [22/Sep/2024:16:11:54 +0530] "GET /JSPJavaBeans/bean.jsp HTTP/1.1" 200 53
+0:0:0:0:0:0:0:1 - - [22/Sep/2024:16:12:48 +0530] "GET /JSPJavaBeans/bean.jsp HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [22/Sep/2024:16:13:33 +0530] "GET /JSPJavaBeans/bean.jsp HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [22/Sep/2024:16:15:16 +0530] "GET /JSPJavaBeans/bean.jsp HTTP/1.1" 200 53
+127.0.0.1 - - [22/Sep/2024:16:40:27 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Sep/2024:16:40:28 +0530] "GET /RegisterJSP/Register.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Sep/2024:16:42:27 +0530] "GET /RegisterJSP/register.jsp?name=Mahesh&email=mahesh%40gmail.com&password=89192223&gender=male&address=delhi HTTP/1.1" 200 425
+0:0:0:0:0:0:0:1 - - [22/Sep/2024:16:42:28 +0530] "GET /RegisterJSP/register.jsp?name=Mahesh&email=mahesh%40gmail.com&password=89192223&gender=male&address=delhi HTTP/1.1" 200 826
+0:0:0:0:0:0:0:1 - - [22/Sep/2024:16:46:11 +0530] "GET /RegisterJSP/register.jsp?name=manish&email=manish%40gmail.com&password=manish%40123&gender=male&address=vij HTTP/1.1" 200 826
+0:0:0:0:0:0:0:1 - - [22/Sep/2024:16:46:15 +0530] "GET /RegisterJSP/register.jsp?name=&email=&password=&address= HTTP/1.1" 200 549

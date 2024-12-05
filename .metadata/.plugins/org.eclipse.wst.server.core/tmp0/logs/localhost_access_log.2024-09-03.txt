@@ -1,0 +1,16 @@
+127.0.0.1 - - [03/Sep/2024:16:24:09 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:16:24:10 +0530] "GET /Multiple/Home.html HTTP/1.1" 200 237
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:16:24:10 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:16:25:46 +0530] "GET /Multiple/Home.html HTTP/1.1" 200 256
+127.0.0.1 - - [03/Sep/2024:17:10:58 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:17:10:58 +0530] "GET /Login/Login HTTP/1.1" 500 1254
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:17:14:45 +0530] "GET /Login/Login?username=admin&password=admin123 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:17:14:45 +0530] "GET /Login/ok HTTP/1.1" 200 22
+127.0.0.1 - - [03/Sep/2024:17:32:59 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:17:33:00 +0530] "GET /LoginUsingHtml/Login.html HTTP/1.1" 200 422
+127.0.0.1 - - [03/Sep/2024:17:47:57 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:17:47:58 +0530] "GET /LoginUsingHtml/Login.html HTTP/1.1" 200 468
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:17:51:14 +0530] "GET /LoginUsingHtml/check?username=admin&password=admin123 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:17:51:14 +0530] "GET /LoginUsingHtml/success.html HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:17:51:38 +0530] "GET /LoginUsingHtml/check?username=admin&password=admin123 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:17:51:38 +0530] "GET /LoginUsingHtml/success.html HTTP/1.1" 404 782

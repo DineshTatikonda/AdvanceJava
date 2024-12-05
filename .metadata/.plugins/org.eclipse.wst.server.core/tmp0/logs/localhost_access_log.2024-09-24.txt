@@ -1,0 +1,13 @@
+127.0.0.1 - - [24/Sep/2024:12:41:06 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Sep/2024:12:41:08 +0530] "GET /Employee_Management_System/home.jsp HTTP/1.1" 200 409
+0:0:0:0:0:0:0:1 - - [24/Sep/2024:12:41:08 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [24/Sep/2024:12:41:42 +0530] "GET /Employee_Management_System/home.jsp HTTP/1.1" 200 418
+0:0:0:0:0:0:0:1 - - [24/Sep/2024:12:42:32 +0530] "GET /Employee_Management_System/home.jsp HTTP/1.1" 200 436
+0:0:0:0:0:0:0:1 - - [24/Sep/2024:12:45:47 +0530] "GET /Employee_Management_System/home.jsp HTTP/1.1" 200 440
+0:0:0:0:0:0:0:1 - - [24/Sep/2024:13:25:33 +0530] "GET /Employee_Management_System/home.jsp HTTP/1.1" 200 474
+127.0.0.1 - - [24/Sep/2024:13:26:07 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Sep/2024:13:26:08 +0530] "GET /Employee_Management_System/home.jsp HTTP/1.1" 200 474
+0:0:0:0:0:0:0:1 - - [24/Sep/2024:13:26:12 +0530] "GET /Employee_Management_System/addemp.jsp HTTP/1.1" 200 2097
+127.0.0.1 - - [24/Sep/2024:16:54:50 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Sep/2024:16:54:51 +0530] "GET /Jewellery_Management_System/index.jsp HTTP/1.1" 200 483
+0:0:0:0:0:0:0:1 - - [24/Sep/2024:16:54:51 +0530] "GET /favicon.ico HTTP/1.1" 404 762

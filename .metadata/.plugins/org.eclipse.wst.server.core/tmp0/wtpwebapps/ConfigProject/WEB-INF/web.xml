@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+  <servlet-name>Dinesh</servlet-name>
+  <servlet-class>com.config.Connect</servlet-class>
+  <init-param>
+  
+  <param-name>driver</param-name>
+  <param-value>com.mysql.cj.jdbc.Driver</param-value>
+  </init-param> 
+  <init-param>
+  <param-name>url</param-name>
+  <param-value>jdbc:mysql://localhost:3306/test</param-value>
+  </init-param> 
+  <init-param>
+  <param-name>user</param-name>
+  <param-value>root</param-value>
+  </init-param> 
+   <init-param>
+  <param-name>pass</param-name>
+  <param-value>test123</param-value>
+  </init-param> 
+  
+  
+  </servlet>
+ <servlet-mapping>
+ <servlet-name>Dinesh</servlet-name>
+ <url-pattern>/go</url-pattern>
+ 
+ </servlet-mapping>
+ <servlet>
+ <servlet-name>Dhanooj</servlet-name>
+ <servlet-class>com.config.Connect2</servlet-class>
+  <init-param>
+  
+  <param-name>driver</param-name>
+  <param-value>com.mysql.cj.jdbc.Driver</param-value>
+  </init-param> 
+  <init-param>
+  <param-name>url</param-name>
+  <param-value>jdbc:mysql://localhost:3306/test</param-value>
+  </init-param> 
+  <init-param>
+  <param-name>user</param-name>
+  <param-value>dinesh</param-value>
+  </init-param> 
+   <init-param>
+  <param-name>pass</param-name>
+  <param-value>test123</param-value>
+  </init-param> 
+ </servlet> 
+  
+ <servlet-mapping>
+ <servlet-name>Dhanooj</servlet-name>
+ <url-pattern>/check</url-pattern>
+ </servlet-mapping>
+ 
+  
+  </web-app>

@@ -1,0 +1,63 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+       <center>
+    <h1><font color="#fadfad">Welcome Employee Management System</font></h1>
+    <h1><a href='addemp.jsp'>Add Employee</a></h1>
+    <h1><a href='viewemp'>View All Employee</a></h1>
+    <h1><a href='searchemp,jsp'>Search Employee</a></h1>
+    <hr>
+    <form action="saveuser">
+        <table border='1'>
+        <tr>
+          <td>Name</td>
+          <td><input type='text' value='name'></td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td><input type='text' value='email'></td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td><input type='radio' value='gender' value="male"/>Male
+          <td><input type='radio' value='gender' value="female"/>Female
+          <td><input type='radio' value='gender' value="other"/>Other
+          </td>
+        </tr>
+        <tr>
+            <td>Department</td>
+             <td><input type='text' value='dept'> 
+                <select name='department'>
+                   <option value ="HR"></option>
+                   <option value ="SALES"></option>
+                   <option value ="MANAGER"></option> 
+                   </select>
+                   </td>   
+        </tr>
+        <tr>
+        <td>Salary</td>
+         <td><input type='text' value='salary'> 
+        
+        
+        </tr>
+        
+        
+        
+        
+        
+        </table>
+    
+    
+    
+    </form>
+    
+    </center>
+       
+</body>
+</html>

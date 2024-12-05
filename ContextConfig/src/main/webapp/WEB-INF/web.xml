@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+    <servlet>
+           <servlet-name>dhanooj</servlet-name>
+           <jsp-file>/config.jsp</jsp-file>
+    <init-param>
+            <param-name>driver</param-name>
+            <param-value>com.mysql.jdbc.Driver</param-value>
+    </init-param>
+    <init-param>
+            <param-name>url</param-name>
+            <param-value>jdbc:mysql:localhost:3306/test</param-value>
+    </init-param>
+    
+    </servlet>
+    <servlet-mapping>
+            <servlet-name>dhanooj</servlet-name>
+            <url-pattern>/one</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    <servlet>
+        <servlet-name>dinesh</servlet-name>
+        <jsp-file>/context.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dinesh</servlet-name>
+        <url-pattern>/two</url-pattern>
+    </servlet-mapping>
+    <context-param>
+        <param-name>username</param-name>
+        <param-value>root</param-value>
+    </context-param>
+    <context-param>
+         <param-name>password</param-name>
+         <param-value>test123</param-value>
+    </context-param>
+    
+</web-app>
